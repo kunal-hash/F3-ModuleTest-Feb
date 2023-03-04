@@ -1,0 +1,99 @@
+*{
+    margin: 0px;
+    padding:0px;
+    font-family: sans-serif;
+}
+body{
+    background-color:black;
+    color: white;
+}
+.book-store-app{
+    padding: 15px;
+}
+.search-history{
+    padding: 15px;
+    text-decoration: none;
+    color: white;
+    list-style: none;
+    border: none;
+}
+.main-container .navbar-container a{
+    text-decoration: none;
+    color: white;
+}
+#history-section-2{
+    display: flex;
+    justify-content: space-between;
+    padding:15px;
+}
+.div-item{
+    padding: 15px;
+    width: 100vh;
+    display: flex;
+}
+
+#btn{
+    background-color:white;
+    color:black;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+.div-item-bar{
+    padding: 15px;
+    width: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid white;
+    justify-content: space-between;
+}
+.div-item-bar input{
+    background-color: black;
+    border: none;
+    color: white;
+    width: auto;
+}
+.div-item-bar input :focus{
+    outline: none;
+    border: none;
+}
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.card{
+    border: 2px solid black;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+   
+   
+}
+/* .card-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} */
+.card-image img{
+    height: 300px;
+    width: 300px;
+
+}
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+}
+.book-name{
+    text-decoration: none;
+}
+.date{
+    text-decoration: none;
+}
+.item{
+    text-decoration: none;
+}
+
