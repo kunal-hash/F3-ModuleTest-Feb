@@ -32,7 +32,18 @@ data.map((data,i)=>{
 </div>`
 })
 
-function myfunction(){
-    
+// function myfunction(){
+//     fetch(url+bookName)
+//     .then(Response => Response.json())
+//     .then((data)=>{
+//         data.items.map((items)=>{
+            
 
-}
+
+//         })
+
+
+
+//     })
+
+// }

@@ -41,11 +41,12 @@ body{
 }
 .div-item-bar{
     padding: 15px;
-    width: 100vh;
+    width: 97%;
     display: flex;
     flex-wrap: wrap;
     border: 1px solid white;
-    justify-content: space-between;
+    border-radius: 5px;
+    margin-left: 12px;
 }
 .div-item-bar input{
     background-color: black;

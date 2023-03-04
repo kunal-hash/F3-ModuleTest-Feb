@@ -13,13 +13,13 @@ historyButton.addEventListener("click",()=>{
 
 
 
-let details=[];
-if(window.localStorage.getItem("details")){
-    details.map((value)=>{
-        details.push(value);
-    })
-}
-
+// let details=[];
+// if(window.localStorage.getItem("details")){
+//     details.map((value)=>{
+//         details.push(value);
+//     })
+// }
+const details =JSON.parse(localStorage.getItem("userData")||"[]");
 // let history=[];
 // if(window.localStorage.getItem("history")){
 //     history.map((value)=>{
@@ -112,6 +112,8 @@ function myfunction(){
     })
     })
     }
+
+    search.value="";
 }
 
     
